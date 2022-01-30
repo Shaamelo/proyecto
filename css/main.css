@@ -137,7 +137,14 @@ hr {
     text-decoration: underline;
 }
 
-.btn__container{height:100vh;display:flex;justify-content:center;align-items:center}
+.btn__container{
+    
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
 .btn__container a{margin-right:10px}
 .btn{min-width:110px;background-color:#fff;padding:1rem 2rem;text-decoration:none;color:#C71E7E;display:flex;transition:all .2s ease-in-out}
 .btn i{color:#DF3796;font-size:20px;padding-right:10px;transition:all .3s ease-in-out}

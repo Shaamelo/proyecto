@@ -55,12 +55,39 @@
                 <ul class="menu">
                     <li><a href="#">Bebidas</a></li>
                         <li><a href="#">Reservas</a>
-                            <div id="login-content">
-                                    <form>
-                                        <input type="nombre" id="name" name="Nombre" placeholder="Ingrese su nombre">
-                                        <input type="number" id="phone" name="Numero" placeholder="Ingrese su número de teléfono">
-                                        <input type="email" id="user" name="Email" placeholder="Ingrese su correo">
-                                        <input type="submit" id="submit" value="Enviar">
+
+                                    <form>   
+                                        <div class="campos">
+                                            <div>
+                                                <label>Nombres:</label>
+                                                <input type="nombre" id="name" name="Nombre" placeholder="Ingrese su nombre">
+                                            </div>
+                                            <div>
+                                                <label>Apellidos:</label>
+                                                <input type="apellidos" id="lastname" name="Apellidos" placeholder="Ingrese sus apellidos">
+                                            </div>
+                                        </div> 
+                                        <div class="campos"> 
+                                        <div>
+                                            <label>Sexo: </label>
+                                            <br>
+                                            <label>Masculino:</label>
+                                            <input type="radio" name="sexo" value="Masculino">
+                                            <br>
+                                            <label>Femenino</label>
+                                            <input type="radio" name="sexo" value="Femenino">
+                                        </div>
+                                        </div>
+                                        <div class="campos">
+                                        <div>
+                                            <label>Número de teléfono:</label>
+                                            <input type="tel" id="phone" name="Numero" placeholder="Ingrese su teléfono">
+                                        </div>  
+                                        <div>
+                                            <label>Email:</label>
+                                            <input type="email" id="user" name="Email" placeholder="Ingrese su correo">
+                                        </div>  
+                                        </div>
                                     </form>
                             </div>
                         </li>

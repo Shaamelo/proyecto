@@ -191,16 +191,19 @@ hr {
     transform:translateX(45px);
     padding-right:0;color:#FFF
 }
+
 .btn:hover span{
     -webkit-transform:translateX(30px);
     transform:translateX(30px);
     opacity:0
 }
+
 .btn:active{
     -webkit-transform:scale(1);
     transform:scale(1);
     box-shadow:0 2px 10px rgba(0,0,0,.1)
 }
+
 .btn-f{min-width:110px;
     background-color:#fff;
     padding:1rem 2rem;
@@ -209,12 +212,14 @@ hr {
     display:flex;
     transition:all .2s ease-in-out
 }
+
 .btn-f i{
     color:#286ED6;
     font-size:20px;
     padding-right:10px;
     transition:all .3s ease-in-out
 }
+
 .btn-f span{
     font-family:Roboto,sans-serif;
     align-self:center;
@@ -223,23 +228,27 @@ hr {
     transition:all .1s ease-in-out;
     opacity:1
 }
+
 .btn-f:hover{
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
     background-color:#286ED6;
     box-shadow:0 10px 30px rgba(0,0,0,.1)
 }
+
 .btn-f:hover i{
     -webkit-transform:translateX(45px);
     transform:translateX(45px);
     padding-right:0;
     color:#FFF
 }
+
 .btn-f:hover span{
     -webkit-transform:translateX(30px);
     transform:translateX(30px);
     opacity:0
 }
+
 .btn-f:active{
     -webkit-transform:scale(1);
     transform:scale(1);

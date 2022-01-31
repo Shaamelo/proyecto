@@ -248,3 +248,30 @@ hr {
 
 /* Funciones Servicios*/
 
+nav.Reservas ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;   
+}
+
+nav.Reservas #Enviar{
+
+    display: inline-block;
+    font-size: 16px;
+    padding: 1px 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #fff;
+}
+
+nav.Reservas #login-content {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 999;
+    background-color: #fff;
+    padding: 15px;
+    width: 250px;
+}

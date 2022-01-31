@@ -140,7 +140,7 @@ hr {
 /* Funciones contactos */
 
 
-.btn__container{
+.btn_container{
     
     height:100vh;
     display:flex;
@@ -150,7 +150,7 @@ hr {
 }
 
 
-.btn__container a {
+.btn_container a {
     margin-right:10px
 }
 .btn {
